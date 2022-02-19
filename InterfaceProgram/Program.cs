@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 interface Perform
 {
     void add();
@@ -25,5 +26,6 @@ class Test : Perform
         Test t= new Test();
         t.add();
         t.display();
+        Console.ReadLine();
     }
 }
